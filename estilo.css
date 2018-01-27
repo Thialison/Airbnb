@@ -1,0 +1,99 @@
+.nav-opcoes a {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url(img/castelo.jpg);
+    background-size: cover;
+    background-position:top center;
+    height: 100%;
+    position: relative;
+}
+
+.topCasaFina-banner {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    width: 50%;
+    border-radius: 8px;
+    position: absolute; 
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+.topCasaFina-banner h1{
+    margin: 0px;
+}
+
+.topCasaFina-banner button {
+    white-space: unset;
+}
+
+.banner-airbnb h2 {
+    margin-top: 10px !important;
+}
+
+.banner-airbnb {
+    margin-bottom: 15px !important;
+}
+
+.titulo-depoimentos{
+    background-color: rgb(12, 156, 156);
+    color: rgba(255, 255, 255, 0.979);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 0;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.video-institucional{
+    background-color: rgb(53, 49, 49);
+    color: rgb(252, 251, 249);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 0;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+#contato {
+    border-style: double;
+    border-color: rgb(88, 97, 94);
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+#contato h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.input-contato {
+    margin-bottom: 10px !important;
+}
+
+.botao-form-enviar{
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(49, 45, 45);
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
