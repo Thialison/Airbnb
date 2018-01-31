@@ -8,7 +8,7 @@ $('#navbar').on('hide.bs.collapse', function(){
 });;
 
 var $doc = $('html, body');
-$('a').click(function() {
+$('.lista-nav').click(function() {
     $doc.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
